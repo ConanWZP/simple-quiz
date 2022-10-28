@@ -21,6 +21,15 @@ const questions = [
         ],
         correct: 2,
     },
+    {
+        title: 'Что такое Redux',
+        variants: [
+            'Это простой HTML',
+            'State management',
+            'Это тот же HTML, но с возможностью выполнять JS-код',
+        ],
+        correct: 1,
+    },
 ];
 
 type ResultType = {
